@@ -3,11 +3,11 @@ from conans import ConanFile, tools, os
 class BoostPoolConan(ConanFile):
     name = "Boost.Pool"
     version = "1.64.0"
-    generators = "txt"
+    generators = "boost"
     url = "https://github.com/boostorg/pool"
     description = "Please visit http://www.boost.org/doc/libs/1_64_0/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
-    requires =  "Boost.Level8Group/1.64.0@bincrafters/testing"
+    requires =  "Boost.Level11Group/1.64.0@bincrafters/testing"
    
     def package_id(self):
         self.info.header_only()
