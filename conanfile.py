@@ -1,5 +1,6 @@
 from conans import ConanFile, tools, os
 
+
 class BoostPoolConan(ConanFile):
     name = "Boost.Pool"
     version = "1.64.0"
