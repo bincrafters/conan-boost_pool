@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostPoolConan(ConanFile):
     name = "boost_pool"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-pool"
+    url = "https://github.com/bincrafters/conan-boost_pool"
 
     lib_short_names = ["pool"]
     is_in_cycle_group = True
