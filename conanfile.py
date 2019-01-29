@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.69.0@bincrafters/testing")
 
 class BoostPoolConan(base.BoostBaseConan):
     name = "boost_pool"
+    version = "1.69.0"
     url = "https://github.com/bincrafters/conan-boost_pool"
     lib_short_names = ["pool"]
     header_only_libs = ["pool"]
